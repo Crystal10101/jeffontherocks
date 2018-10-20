@@ -7,6 +7,10 @@ navbar:
       href: index.html
     - text: "About Me"
       href: about.html
+    - text: "My Favorite Rocks"
+      href: rocks.html
+    - text: "My Favorite Drinks"
+      href: drinks.html
 output:
   html_document:
     theme: flatly
