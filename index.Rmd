@@ -4,3 +4,6 @@ title: "Jeff on the Rocks"
 ---
 
 Hello, World!
+
+Why I am awesome. 
+![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/sam.JPG)

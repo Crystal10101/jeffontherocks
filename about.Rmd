@@ -4,4 +4,5 @@ title: "About Me"
 ---
 
 Why I am awesome. 
-![](/Users/christineiyer/jeffontherocks/IMG_2327.jpg)
+
+![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/sam.JPG)
