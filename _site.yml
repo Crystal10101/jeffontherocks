@@ -1,0 +1,13 @@
+name: "Jeff on the Rocks"
+output_dir: "."
+navbar:
+  title: "Jeff on the Rocks"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+output:
+  html_document:
+    theme: flatly
+    css: style.css
