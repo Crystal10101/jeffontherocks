@@ -16,6 +16,14 @@ navbar:
     - text: "My Favorite Drinks"
       icon: glyphicon glyphicon-glass
       href: drinks.html
+      
+  right:
+    - icon: fa-instagram fa-lg
+      href: https://www.instagram.com/jrhains/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/jeffrey-hains-3567b55a/
+    - icon: fa-envelope fa-lg
+      href: contact.html
 output:
   html_document:
     theme: yeti

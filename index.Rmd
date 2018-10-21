@@ -3,6 +3,6 @@
 title: "Jeff on the Rocks"
 ---
 
-Hi everyone, I'm Jeff (OnTheRocks) and I'm at your service. What'll it be?
+### Hi everyone, I'm Jeff (OnTheRocks) and I'm at your service. What'll it be?
 
 ![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/bar.jpg)

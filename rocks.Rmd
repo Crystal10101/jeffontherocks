@@ -2,6 +2,10 @@
 title: "My Favorite Rocks"
 ---
 
+### Rocks out west
+
 ![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/rocks1.jpg)
+
+### Rocks out east
 
 ![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/rocks2.jpg)

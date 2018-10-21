@@ -3,16 +3,22 @@
 title: "About Me"
 ---
 
-Why I am awesome. 
+# Why I am awesome. 
 
-Check out my timeline
+## Check out my timeline
 
-![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/methree.png)
-At your service.
+### Here I'm young and wearing a head lamp
+
+![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/methree.jpg)
+
+### Here I am, at your service
 
 ![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/metoo.jpg)
 
-"Hello Ladies"
+### Hello Ladies, it's Happy Hour
+
 ![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/me1.jpg)
+
+### I can also be tough
 
 ![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/sam.jpg)
