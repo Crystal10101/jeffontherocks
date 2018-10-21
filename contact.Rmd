@@ -1,5 +1,4 @@
 ---
 title: "Contact me"
 ---
-
-### [Email me anytime](jrhains@gmail.com)
+### [Email Me Anytime](mailto:jrhains@gmail.com)
