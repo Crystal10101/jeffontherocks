@@ -11,7 +11,7 @@
 
 
 
-<title>Jeff on the Rocks</title>
+<title>Make every anthill into a mountain</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,6 +25,49 @@
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 
 
 <style type="text/css">
@@ -230,22 +273,32 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Jeff on the Rocks</h1>
+<h1 class="title toc-ignore">Make every anthill into a mountain</h1>
 
 </div>
 
 
-<div id="hi-everyone-im-jeff-ontherocks-and-im-at-your-service.-whatll-it-be" class="section level3">
-<h3>Hi everyone, I’m Jeff (OnTheRocks) and I’m at your service. What’ll it be?</h3>
-<div class="figure">
-<img src="bar.jpg" />
-
-</div>
-<pre><code>## 
-## The downloaded binary packages are in
-##  /var/folders/xw/44q80_050bq98s75jbg708_c0000gn/T//RtmpyYgo5S/downloaded_packages</code></pre>
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-</div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(ggplot2)
+<span class="kw">library</span>(ggridges)
+<span class="kw">install.packages</span>(<span class="st">&quot;viridis&quot;</span>)</code></pre></div>
+<pre><code>## Error in install.packages : Updating loaded packages</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(viridis)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(ggplot2)
+<span class="kw">library</span>(ggridges)
+<span class="kw">library</span>(viridis)
+<span class="kw">ggplot</span>(lincoln_weather, <span class="kw">aes</span>(<span class="dt">x =</span> <span class="st">`</span><span class="dt">Mean Temperature [F]</span><span class="st">`</span>, <span class="dt">y =</span> <span class="st">`</span><span class="dt">Month</span><span class="st">`</span>, <span class="dt">fill =</span> ..x..)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density_ridges_gradient</span>(<span class="dt">scale =</span> <span class="dv">3</span>, <span class="dt">rel_min_height =</span> <span class="fl">0.01</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_fill_viridis</span>(<span class="dt">name =</span> <span class="st">&quot;Temp. [F]&quot;</span>, <span class="dt">option =</span> <span class="st">&quot;C&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">theme_bw</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.title.x=</span><span class="kw">element_blank</span>(),
+        <span class="dt">axis.text.x=</span><span class="kw">element_blank</span>(),
+        <span class="dt">axis.ticks.x=</span><span class="kw">element_blank</span>())<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.title.y=</span><span class="kw">element_blank</span>(),
+        <span class="dt">axis.text.y=</span><span class="kw">element_blank</span>(),
+        <span class="dt">axis.ticks.y=</span><span class="kw">element_blank</span>())<span class="op">+</span><span class="st"> </span><span class="kw">guides</span>(<span class="dt">fill=</span><span class="ot">FALSE</span>) <span class="op">+</span><span class="st"> </span><span class="kw">theme</span>(<span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(), <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>(),
+<span class="dt">panel.background =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.border =</span> <span class="kw">element_blank</span>())</code></pre></div>
+<pre><code>## Picking joint bandwidth of 3.37</code></pre>
+<p><img src="ridge_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 
 <p>Copyright &copy; 2018 Crystal Crystal Crystal I., Inc. All rights reserved.</p>
 

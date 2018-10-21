@@ -1,16 +1,17 @@
-
 ---
-title: "Jeff on the Rocks"
+title: "Make every anthill into a mountain"
 ---
 
-### Hi everyone, I'm Jeff (OnTheRocks) and I'm at your service. What'll it be?
-
-![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/bar.jpg)
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+```{r}
 library(ggplot2)
 library(ggridges)
 install.packages("viridis")
+library(viridis)
+```
+
+```{r}
+library(ggplot2)
+library(ggridges)
 library(viridis)
 ggplot(lincoln_weather, aes(x = `Mean Temperature [F]`, y = `Month`, fill = ..x..)) +
   geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
@@ -26,3 +27,4 @@ panel.background = element_blank(),
 
 
 ```
+
