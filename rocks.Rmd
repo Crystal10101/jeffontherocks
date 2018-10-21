@@ -2,6 +2,6 @@
 title: "My Favorite Rocks"
 ---
 
-![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/rocks1,JPG)
+![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/rocks1.jpg)
 
-![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/rocks2JPG)
+![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/rocks2.jpg)
