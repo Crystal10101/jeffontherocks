@@ -2,19 +2,24 @@ name: "Jeff on the Rocks"
 output_dir: "."
 navbar:
   title: "Jeff on the Rocks"
+  type: inverse
   left:
     - text: "Home"
+      icon: glyphicon glyphicon-tree-deciduous
       href: index.html
     - text: "About Me"
+      icon: glyphicon glyphicon-sunglasses
       href: about.html
     - text: "My Favorite Rocks"
+      icon: glyphicon glyphicon-asterisk
       href: rocks.html
     - text: "My Favorite Drinks"
+      icon: glyphicon glyphicon-glass
       href: drinks.html
 output:
   html_document:
-    theme: cosmo
-    highlight: textmate
+    theme: yeti
+    highlight: pygments
     include:
       after_body: footer.html
     css: style.css
