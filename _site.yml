@@ -18,12 +18,15 @@ navbar:
       href: drinks.html
       
   right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
     - icon: fa-instagram fa-lg
       href: https://www.instagram.com/jrhains/
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/jeffrey-hains-3567b55a/
-    - icon: fa-envelope fa-lg
-      href: contact.html
+    - icon: fa-facebook fa-lg
+      href: https://m.facebook.com/jeffrey.hains?__xts__%5B0%5D=12.%7B"unit_id_click_type"%3A"graph_search_results_item_in_module_tapped"%2C"click_type"%3A"result"%2C"module_id"%3A0%2C"result_id"%3A100000304821371%2C"session_id"%3A"0c08a4f1c19fbfda752bd5245e4bb6d9"%2C"module_role"%3A"ENTITY_USER"%2C"unit_id"%3A"browse_rl%3Aad3f3792-bc22-10d3-69c6-7bbe95851d9f"%2C"browse_result_type"%3A"browse_type_user"%2C"unit_id_result_id"%3A100000304821371%2C"module_result_position"%3A2%7D#_=_
+    
 output:
   html_document:
     theme: yeti
