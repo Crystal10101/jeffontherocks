@@ -5,7 +5,8 @@ title: "About Me"
 
 # Why I am awesome. 
 
-![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/photo1.JPG)
+![](/Users/christineiyer/jeffontherocks/JeffFolder/jeffontherocks/photo1.jpg)
+
 
 ### Here I'm young and wearing a head lamp
 
